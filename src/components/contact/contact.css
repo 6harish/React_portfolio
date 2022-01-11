@@ -1,18 +1,19 @@
 .c {
-  height: 100vh;
-  width: 100vw;
-  /* position: relative; */
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
-.c-bg {
-  width: 20px;
+/* .c-bg {
+  width: 30px;
   height: 100%;
   background-color: #59b256;
   position: absolute;
-}
+} */
 
 .c-wrapper {
-  padding-left: 50px;
+  /* margin-left: 30px; */
+  margin: 20px;
   display: flex;
 }
 
@@ -22,6 +23,7 @@
 
 .c-right {
   flex: 1;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,42 +32,46 @@
 
 .c-title {
   font-size: 60px;
-  
-  width: 50%;
+
+  width: 80%;
 }
 
 .c-info-item {
   display: flex;
   align-items: center;
-  margin: 50px 0px;
+  margin: 30px 0px;
   font-weight: 300;
   width: 70%;
 }
 
 .c-icon {
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   margin-right: 20px;
+  border-radius: 30px;
 }
 
 .c-desc {
   font-weight: 100;
+  margin: 20px;
 }
 
+.c-info-item1 {
+  flex-direction: row;
+}
 
-
-
-
+a {
+  font-size: 20px;
+}
 
 @media screen and (max-width: 480px) {
   .c-wrapper {
     flex-direction: column;
-    padding: 0px 50px;
+    margin: 20px;
   }
 
   .c-title {
     font-size: 30px;
-    
   }
 
   .c-info-item {
@@ -73,23 +79,14 @@
     width: 100%;
   }
 
- 
-.c-desc {
-  font-weight: 100vw;
-  align-self: center;
-}
-
-  form {
-    margin-top: 0px;
-    display: flex;
-    flex-wrap: wrap;
+  .c-desc {
+    font-weight: 100vw;
+    align-self: center;
   }
-
-  input {
-    width: 35%;
+  .c-icon {
+    width: 40px;
     height: 40px;
-    margin: 10px;
-    margin-left: 0;
+    margin-right: 20px;
   }
 
   button {

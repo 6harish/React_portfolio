@@ -1,28 +1,30 @@
-.t{
-    width: 50px;
-    height: 25px;
-    border-radius: 20px;
-    border: 1pz solid rgb(213, 241, 111);
-    background-color: white;
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.t {
+  width: 50px;
+  height: 25px;
+  border-radius: 20px;
+
+  border-color: black;
+  background-color: white;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 0.5;
 }
 
-.t-icon{
-    width: 15px;
-    height: 15px;
+.t-icon {
+  width: 20px;
+  height: 20px;
 }
 
-.t-button{
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #999;
-    position: absolute;
-    cursor: pointer;
+.t-button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(32, 19, 19);
+  position: absolute;
+  cursor: pointer;
 }

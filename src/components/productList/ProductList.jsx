@@ -16,67 +16,69 @@ const ProductList = () => {
 
 
 
-    <div className="c">
-      <div className="c-bg"></div>
-      <div className="c-wrapper">
-        <div className="c-left">
-          <h1 className="c-title">Technical Skills</h1>
-          <div className="c-info">
-            <div className="c-info-item">
-              <img className="c-icon" src={webdeveloper} alt="" />
+    <div className="p">
+      
+      <div className="p-wrapper">
+        <div className="p-left">
+          <h1 className="p-title">Technical Skills</h1>
+          <div className="p-info">
+            <div className="p-info-item">
+              <img className="p-icon" src={webdeveloper} alt="" />
               <p>Web Developer</p>
             </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={appdeveloper} alt="" />
+            <div className="p-info-item">
+              <img className="p-icon" src={appdeveloper} alt="" />
               <p>Mobile App Developer</p>
             </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={uiux} alt="" />
+            <div className="p-info-item">
+              <img className="p-icon" src={uiux} alt="" />
               <p>UI/UX Developer</p>
             </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={frontend} alt="" />
+            <div className="p-info-item">
+              <img className="p-icon" src={frontend} alt="" />
               <p>Front-End Developer</p>
             </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={reactjs} alt="" />
+            <div className="p-info-item">
+              <img className="p-icon" src={reactjs} alt="" />
               <p>ReactJs</p>
+            </div>
+            <div className="p-info-item">
+              <img className="p-icon" src={reactnative} alt="" />
+              <p>React Native</p>
             </div>
 
           </div>
         </div>
-        <div className="c-right">
+        <div className="p-right">
           <div>
-            <div className="c-info-item">
-              <img className="c-icon" src={reactnative} alt="" />
-              <p>React Native</p>
-            </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={html} alt="" />
+           
+            <div className="p-info-item">
+              <img className="p-icon" src={html} alt="" />
               <p>Html</p>
             </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={css} alt="" />
+            <div className="p-info-item">
+              <img className="p-icon" src={css} alt="" />
               <p>CSS</p>
             </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={javascript} alt="" />
+            <div className="p-info-item">
+              <img className="p-icon" src={javascript} alt="" />
               <p>JavaScrpit</p>
             </div>
 
-            <div className="c-info-item">
-              <img className="c-icon" src={adobexd} alt="" />
+            <div className="p-info-item">
+              <img className="p-icon" src={adobexd} alt="" />
               <p>AdobeXD</p>
             </div>
-            <div className="c-info-item">
-              <img className="c-icon" src={github} alt="" />
+            <div className="p-info-item">
+              <img className="p-icon" src={github} alt="" />
               <p>Github</p>
             </div>
 
           </div>
-
+         
         </div>
       </div>
+     
     </div>
 
   );

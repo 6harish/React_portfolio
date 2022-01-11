@@ -16,7 +16,7 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h1 className="c-title">Contact me</h1>
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
@@ -26,21 +26,28 @@ const Contact = () => {
               <img className="c-icon" src={Email} alt="" />
               <a href="mailto:harishseervi939@gmail.com?body=My custom mail body">harishseervi939@gmail.com</a>
             </div>
+            
             <div className="c-info-item">
+            <a href="https://www.linkedin.com/in/harishseervi">
               <img className="c-icon" src={linkedin} alt="" />
-              <a href="https://www.linkedin.com/in/harishseervi">Linkedin</a>
+              Linkedin
+              </a>
             </div>
+           
             <div className="c-info-item">
+            <a href="https://github.com/6harish">
               <img className="c-icon" src={github} alt="" />
-              <a href="https://github.com/6harish"> Github</a>
+              Github</a>
             </div>
             <div className="c-info-item">
+            <a href="https://www.youtube.com/channel/UCnSPoGoGLbpSEa-lUE4JxjQ">
               <img className="c-icon" src={youtube} alt="" />
-              <a href="https://www.youtube.com/channel/UCnSPoGoGLbpSEa-lUE4JxjQ"> Youtube</a>
+               Youtube</a>
             </div>
             <div className="c-info-item">
+            <a href=" https://www.instagram.com/h_a_r_i_s_h_._s_e_e_r_v_i/">
               <img className="c-icon" src={instagram} alt="" />
-              <a href=" https://www.instagram.com/h_a_r_i_s_h_._s_e_e_r_v_i/"> Instagram</a>
+               Instagram</a>
             </div>
 
             <div className="c-info-item">
